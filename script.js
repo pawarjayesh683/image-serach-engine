@@ -35,8 +35,7 @@ searchForm.addEventListener('submit', (e) => {
     const inputText = searchInput.value.trim();
     if(inputText !== ''){
         fetchImages(inputText);
-    }
-    else{
+    } else {
         imagesContainer.innerHTML = `<h2>Please enter a search query</h2>`
     }
 });
